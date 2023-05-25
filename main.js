@@ -31,7 +31,7 @@ let getSleepHours = (day)=>{
 function getActualSleepHours(){
     let days = ["monday", "tuesday", "wednesday",   "thursday", "friday", "saturday", "sunday"]
     let total = 0;
-    for (day in days) {
+    for (let day in days) {
       total += getSleepHours(day);
     }
 
